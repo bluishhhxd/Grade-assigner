@@ -1,5 +1,4 @@
 def data():
-    Class=[]
     while True:
         try:
             num_students = int(input("Number of students= "))
@@ -104,8 +103,7 @@ def data():
             Percentage= {Percent}%
             Grade= {grade}
             Result= {Result}""")
-            Class.append(student)
-    print(Class)
+            
 
 while True:
     data()
